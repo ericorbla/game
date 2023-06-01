@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+    text-align: center;
+}
+
+body {
+    background-color: lightgrey;
+}
+.container {
+    width: 400px;
+    height: 400px;
+    margin: 7rem auto ;
+    text-align: start;
+    position: relative;
+}
+#hint, #range, #tittle {
+    text-align: start;
+}
+
+#guessfield {
+    padding: .7rem;
+    width: 220px;
+    border: none;    
+}
+#label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.btn {
+    border: none;
+    display: inline-block;
+    width: 110px;
+    padding: .5rem;
+    cursor: pointer;
+    margin: 0;
+}
+#total {
+    width: 4rem;
+    background-color: white;
+    position: absolute;
+    top: 160px;
+    left: 265px;
+
+}
+#attempt {
+    width: 4rem;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 265px;
+
+}
+#num, #score {
+    margin: 0;
+    display: block;
+    color: rgb(92, 92, 92);
+
+}
+.b {
+    color: rgb(79, 79, 79);
+}
